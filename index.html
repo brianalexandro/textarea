@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="ngApp">
+	<head>
+
+		<meta charset="utf-8" />
+		<title>Textarea</title>
+
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+
+		<h2>TEXTAREA</h2>
+		<div ng-controller="TestingController as $ctrl">
+
+			<div style="width: 400px;">
+				<ui-textarea ng-model="$ctrl.text"></ui-textarea>
+			</div>
+
+		</div>
+
+		<!-- ANGULAR CORE -->
+		<script src="https://code.angularjs.org/1.6.3/angular.min.js"></script>
+
+		<script type="text/javascript" src="app.js"></script>
+		<script type="text/javascript" src="app.directive.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,12 @@
+html {
+	font-family: sans-serif;
+}
+
+.wrapper-textarea {
+	height: auto;
+	padding: 6px 12px;
+	resize: none;
+    overflow: hidden;
+    min-height: 72px;
+    width: 100%;
+}
